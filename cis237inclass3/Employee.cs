@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cis237inclass3
 {   //decalres as abstract and gives a good base to derived classes but cannot be instantiated.
-    abstract class Employee
+    abstract class Employee : IEmployee
     {
         //Variables
         protected string _firstName;
