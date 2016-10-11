@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cis237inclass3
+namespace EmployeeLibrary
 {   //decalres as abstract and gives a good base to derived classes but cannot be instantiated.
-    abstract class Employee : IEmployee
+    public abstract class Employee : IEmployee
     {
         //Variables
         protected string _firstName;
